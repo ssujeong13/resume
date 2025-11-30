@@ -1,1 +1,162 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>수정 이 – 경력기술서</title>
+  <style>
+    /* 기본 스타일 */
+    body {
+      font-family: 'Nanum Gothic', sans-serif;
+      line-height: 1.6;
+      color: #333;
+      background-color: #f7f7f7;
+      margin: 0;
+      padding: 0;
+    }
+    .container {
+      max-width: 900px;
+      margin: auto;
+      background: #fff;
+      padding: 40px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    h1, h2, h3 {
+      margin-top: 0;
+    }
+    h1 {
+      font-size: 2.2em;
+      margin-bottom: 5px;
+    }
+    h2 {
+      font-size: 1.5em;
+      border-bottom: 2px solid #eee;
+      padding-bottom: 5px;
+      margin-top: 40px;
+    }
+    h3 {
+      font-size: 1.2em;
+      margin-bottom: 5px;
+    }
+    p {
+      margin: 5px 0 15px;
+    }
+    ul {
+      list-style-type: disc;
+      padding-left: 20px;
+    }
+    a {
+      color: #0366d6;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+
+    /* 섹션 스타일 */
+    .section {
+      margin-bottom: 30px;
+    }
+
+    /* 기술 스택 */
+    .skills span {
+      display: inline-block;
+      background: #0366d6;
+      color: white;
+      padding: 5px 10px;
+      margin: 3px;
+      border-radius: 5px;
+      font-size: 0.9em;
+    }
+
+    /* 프로젝트 */
+    .project {
+      margin-bottom: 15px;
+    }
+    .project h4 {
+      margin: 0 0 5px 0;
+    }
+
+    /* 연락처 */
+    .contact a {
+      margin-right: 15px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <!-- 헤더 -->
+    <header class="section">
+      <h1>수정 이</h1>
+      <p>QA Automation Engineer / Frontend Developer</p>
+      <div class="contact">
+        <a href="mailto:example@email.com">example@email.com</a>
+        <a href="https://github.com/username" target="_blank">GitHub</a>
+        <a href="https://linkedin.com/in/username" target="_blank">LinkedIn</a>
+      </div>
+    </header>
+
+    <!-- 경력 요약 -->
+    <section class="section">
+      <h2>경력 요약</h2>
+      <p>5년 이상의 QA 자동화 및 웹 개발 경험. Cypress, Playwright 기반 테스트 자동화 및 CI/CD 파이프라인 구축 경험 보유. 다양한 팀과 협업하며 업무 효율화와 품질 향상에 기여.</p>
+    </section>
+
+    <!-- 기술 스택 -->
+    <section class="section">
+      <h2>기술 스택</h2>
+      <div class="skills">
+        <span>Cypress</span>
+        <span>Playwright</span>
+        <span>JavaScript</span>
+        <span>TypeScript</span>
+        <span>React</span>
+        <span>GitHub Actions</span>
+        <span>Allure Report</span>
+        <span>Notion API</span>
+        <span>Slack API</span>
+      </div>
+    </section>
+
+    <!-- 프로젝트 -->
+    <section class="section">
+      <h2>주요 프로젝트</h2>
+      
+      <div class="project">
+        <h4>아임웹 로그인 자동화</h4>
+        <p>Cypress를 이용해 로그인 기능 테스트 자동화, ID/PW 입력 후 정상 로그인 여부 검증.</p>
+        <ul>
+          <li>자동화 스크립트 작성 및 GitHub Actions CI 적용</li>
+          <li>Allure Report 연동으로 테스트 리포트 시각화</li>
+        </ul>
+      </div>
+
+      <div class="project">
+        <h4>Notion → Slack 알림 자동화</h4>
+        <p>Google Apps Script와 Notion API, Slack Webhook을 활용하여 매일 타임라인 항목 알림 자동화.</p>
+      </div>
+
+      <div class="project">
+        <h4>QA 검수 체크리스트 자동화</h4>
+        <p>상품/문의/정산 처리 검수 체크리스트를 자동화하여 반복 업무 효율화.</p>
+      </div>
+
+    </section>
+
+    <!-- 학력 / 기타 -->
+    <section class="section">
+      <h2>학력</h2>
+      <p>OO대학교 컴퓨터공학과 졸업</p>
+    </section>
+
+  </div>
+
+  <script>
+    // 필요 시 JS로 동적 기능 추가 가능
+    // 예: 현재 연도 자동 표시, 섹션 애니메이션 등
+    const currentYear = new Date().getFullYear();
+    console.log("현재 연도:", currentYear);
+  </script>
+</body>
+</html>
 
